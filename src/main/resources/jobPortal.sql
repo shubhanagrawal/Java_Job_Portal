@@ -1,7 +1,7 @@
 -- Drop the db first if they exist
-DROP DATABASE  IF EXISTS `jobportal`;
-CREATE DATABASE `jobportal`;
-USE `jobportal`;
+DROP DATABASE  IF EXISTS `job_portal`;
+CREATE DATABASE `job_portal`;
+USE `job_portal`;
 
 CREATE TABLE `users_type` (
   `user_type_id` int NOT NULL AUTO_INCREMENT,
